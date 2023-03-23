@@ -31,6 +31,7 @@ from dataset_factory import DatasetFactory, ROOT_DIR
 import os
 import multiprocessing
 from tqdm import tqdm
+import numpy
 
 
 if __name__ == '__main__':
@@ -46,11 +47,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
     modeltype = args.model
 
-    device = torch.device("cuda:0" if len(args.gpu)>1 else "cuda")
+    #device = torch.device("cuda:0" if len(args.gpu)>1 else "cuda")
+    device = torch.device("mps")
 
     # user defined parameters
     num_threads = int(multiprocessing.cpu_count()/2)
-    minloss = np.float("inf")
+    minloss = numpy.float64("inf")
     # minloss = 0.43162785
 
     # gpu setting

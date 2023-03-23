@@ -31,6 +31,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 def crop_camera(image, ratio=0.15):
+    #ratio=1.0
     height = image.shape[0]
     width = image.shape[1]
     mid_width = width / 2.0

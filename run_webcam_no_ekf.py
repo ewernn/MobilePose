@@ -30,7 +30,6 @@ from dataloader import crop_camera
 # import matplotlib
 # matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import ekf
 
 if __name__ == '__main__':
     
@@ -49,12 +48,9 @@ if __name__ == '__main__':
     # initial the camera
     cam = cv2.VideoCapture(args.camera)
     #cam.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.25)
-    #time.sleep(1)
-    ret_val, image = cam.read()
-    #image = np.zeros((1280, 720, 3))
-    image = crop_camera(image)
 
-    ekf = ekf.Q1_solution()
+    ret_val, image = cam.read()
+    image = crop_camera(image)
 
     while True:
         # read image from the camera and preprocess
@@ -64,21 +60,15 @@ if __name__ == '__main__':
         #print(f"image size 2: {image.shape}")
         # forward the image
         humans = e.inference(image)
-        #print(f"humans shape: {humans.dtype}")
-        obs = humans.flatten()  # (32,)
+
         '''
         input: humans (16,2)
-        kalman_update(obs)
+        kalman_predict(prior_pred, humans)
         '''
-        humans = ekf.EKF(obs)
-        # print(f"humans: {humans}")
-        #print(f"humans shape 2: {humans.dtype}")
-        humans = humans.reshape((16,2))
-        #print(f"humans shape 3: {humans.dtype}")
-        humans = humans.astype(np.int64)
 
 
-        #print(f"humans shape: {humans.shape}")
+
+        print(f"humans shape: {humans.shape}")
         image = ResEstimator.draw_humans(image, humans, imgcopy=False)
         cv2.imshow('MobilePose Demo', image)
         if cv2.waitKey(1) == 27: # ESC
