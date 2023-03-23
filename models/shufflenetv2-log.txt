@@ -1,0 +1,2 @@
+[epoch 1] train loss(coords): 0.32031326, train loss(hm): 0.60593795, train loss: 0.92625121,
+          valid loss(coords): 0.24651442, valid loss(hm): 0.52578485, valid loss: 0.77229927

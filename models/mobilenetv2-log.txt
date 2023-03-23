@@ -1,0 +1,350 @@
+[epoch 1] train loss(coords): 0.32521813, train loss(hm): 0.62282553, train loss: 0.94804366,
+          valid loss(coords): 0.23089375, valid loss(hm): 0.50710526, valid loss: 0.73799900
+[epoch 3] train loss(coords): 0.26728180, train loss(hm): 0.50471265, train loss: 0.77199446,
+          valid loss(coords): 0.20731766, valid loss(hm): 0.44160981, valid loss: 0.64892747
+[epoch 5] train loss(coords): 0.24269589, train loss(hm): 0.47018549, train loss: 0.71288138,
+          valid loss(coords): 0.18744151, valid loss(hm): 0.40993652, valid loss: 0.59737802
+[epoch 7] train loss(coords): 0.21758967, train loss(hm): 0.43595584, train loss: 0.65354551,
+          valid loss(coords): 0.16637991, valid loss(hm): 0.38089904, valid loss: 0.54727896
+[epoch 9] train loss(coords): 0.20030629, train loss(hm): 0.41292024, train loss: 0.61322653,
+          valid loss(coords): 0.15400127, valid loss(hm): 0.35607742, valid loss: 0.51007870
+[epoch 11] train loss(coords): 0.18908058, train loss(hm): 0.39707721, train loss: 0.58615778,
+          valid loss(coords): 0.14732111, valid loss(hm): 0.34410648, valid loss: 0.49142759
+[epoch 13] train loss(coords): 0.18083046, train loss(hm): 0.38410168, train loss: 0.56493214,
+          valid loss(coords): 0.14060359, valid loss(hm): 0.33467318, valid loss: 0.47527677
+[epoch 15] train loss(coords): 0.17363465, train loss(hm): 0.37370011, train loss: 0.54733476,
+          valid loss(coords): 0.13621576, valid loss(hm): 0.32474499, valid loss: 0.46096075
+[epoch 17] train loss(coords): 0.16715130, train loss(hm): 0.36446745, train loss: 0.53161875,
+          valid loss(coords): 0.13088929, valid loss(hm): 0.31623481, valid loss: 0.44712411
+[epoch 19] train loss(coords): 0.16590608, train loss(hm): 0.36108314, train loss: 0.52698921,
+          valid loss(coords): 0.13297652, valid loss(hm): 0.31898407, valid loss: 0.45196059
+[epoch 21] train loss(coords): 0.15926137, train loss(hm): 0.35340739, train loss: 0.51266876,
+          valid loss(coords): 0.12857697, valid loss(hm): 0.31118409, valid loss: 0.43976107
+[epoch 23] train loss(coords): 0.15778011, train loss(hm): 0.34832550, train loss: 0.50610561,
+          valid loss(coords): 0.12573740, valid loss(hm): 0.30322239, valid loss: 0.42895979
+[epoch 25] train loss(coords): 0.16125752, train loss(hm): 0.35300561, train loss: 0.51426314,
+          valid loss(coords): 0.12377604, valid loss(hm): 0.30043977, valid loss: 0.42421582
+[epoch 27] train loss(coords): 0.15014895, train loss(hm): 0.33658618, train loss: 0.48673514,
+          valid loss(coords): 0.12447751, valid loss(hm): 0.29920818, valid loss: 0.42368568
+[epoch 29] train loss(coords): 0.14902889, train loss(hm): 0.33382284, train loss: 0.48285172,
+          valid loss(coords): 0.12083367, valid loss(hm): 0.29323870, valid loss: 0.41407237
+[epoch 31] train loss(coords): 0.14458018, train loss(hm): 0.32729662, train loss: 0.47187681,
+          valid loss(coords): 0.12090740, valid loss(hm): 0.29394236, valid loss: 0.41484976
+[epoch 33] train loss(coords): 0.15551749, train loss(hm): 0.34295102, train loss: 0.49846852,
+          valid loss(coords): 0.12118658, valid loss(hm): 0.29455717, valid loss: 0.41574375
+[epoch 35] train loss(coords): 0.14288092, train loss(hm): 0.32494640, train loss: 0.46782731,
+          valid loss(coords): 0.11827327, valid loss(hm): 0.28976678, valid loss: 0.40804004
+[epoch 37] train loss(coords): 0.13921742, train loss(hm): 0.32068825, train loss: 0.45990568,
+          valid loss(coords): 0.11921613, valid loss(hm): 0.28757657, valid loss: 0.40679269
+[epoch 39] train loss(coords): 0.13653773, train loss(hm): 0.31467523, train loss: 0.45121296,
+          valid loss(coords): 0.11660369, valid loss(hm): 0.28669955, valid loss: 0.40330324
+[epoch 41] train loss(coords): 0.13609045, train loss(hm): 0.31362334, train loss: 0.44971379,
+          valid loss(coords): 0.11351742, valid loss(hm): 0.28200483, valid loss: 0.39552225
+[epoch 43] train loss(coords): 0.13411556, train loss(hm): 0.30999594, train loss: 0.44411150,
+          valid loss(coords): 0.11195827, valid loss(hm): 0.28008839, valid loss: 0.39204665
+[epoch 45] train loss(coords): 0.13372358, train loss(hm): 0.30792139, train loss: 0.44164496,
+          valid loss(coords): 0.11252841, valid loss(hm): 0.27903661, valid loss: 0.39156502
+[epoch 47] train loss(coords): 0.13138681, train loss(hm): 0.30555596, train loss: 0.43694276,
+          valid loss(coords): 0.11201224, valid loss(hm): 0.27799498, valid loss: 0.39000721
+[epoch 49] train loss(coords): 0.12936391, train loss(hm): 0.30311789, train loss: 0.43248179,
+          valid loss(coords): 0.11113959, valid loss(hm): 0.27699354, valid loss: 0.38813313
+[epoch 51] train loss(coords): 0.13033311, train loss(hm): 0.30174641, train loss: 0.43207952,
+          valid loss(coords): 0.11172700, valid loss(hm): 0.27719704, valid loss: 0.38892404
+[epoch 53] train loss(coords): 0.12625907, train loss(hm): 0.29736042, train loss: 0.42361949,
+          valid loss(coords): 0.11011038, valid loss(hm): 0.27345096, valid loss: 0.38356134
+[epoch 55] train loss(coords): 0.12618691, train loss(hm): 0.29685459, train loss: 0.42304150,
+          valid loss(coords): 0.10852503, valid loss(hm): 0.27265730, valid loss: 0.38118233
+[epoch 57] train loss(coords): 0.12502305, train loss(hm): 0.29459148, train loss: 0.41961453,
+          valid loss(coords): 0.10852598, valid loss(hm): 0.27283285, valid loss: 0.38135882
+[epoch 59] train loss(coords): 0.12577477, train loss(hm): 0.29404388, train loss: 0.41981865,
+          valid loss(coords): 0.11003272, valid loss(hm): 0.27257477, valid loss: 0.38260749
+[epoch 61] train loss(coords): 0.12236893, train loss(hm): 0.29005078, train loss: 0.41241972,
+          valid loss(coords): 0.10882052, valid loss(hm): 0.27091164, valid loss: 0.37973215
+[epoch 63] train loss(coords): 0.12173770, train loss(hm): 0.28833178, train loss: 0.41006949,
+          valid loss(coords): 0.10587678, valid loss(hm): 0.26744196, valid loss: 0.37331874
+[epoch 65] train loss(coords): 0.12154851, train loss(hm): 0.28761649, train loss: 0.40916500,
+          valid loss(coords): 0.10842060, valid loss(hm): 0.27071520, valid loss: 0.37913581
+[epoch 67] train loss(coords): 0.11901924, train loss(hm): 0.28413127, train loss: 0.40315051,
+          valid loss(coords): 0.10488331, valid loss(hm): 0.26696325, valid loss: 0.37184656
+[epoch 69] train loss(coords): 0.11667173, train loss(hm): 0.27970364, train loss: 0.39637537,
+          valid loss(coords): 0.10479569, valid loss(hm): 0.26500302, valid loss: 0.36979870
+[epoch 71] train loss(coords): 0.11805390, train loss(hm): 0.28280988, train loss: 0.40086378,
+          valid loss(coords): 0.10506326, valid loss(hm): 0.26554959, valid loss: 0.37061285
+[epoch 73] train loss(coords): 0.11535828, train loss(hm): 0.27798075, train loss: 0.39333903,
+          valid loss(coords): 0.10391619, valid loss(hm): 0.26279004, valid loss: 0.36670624
+[epoch 75] train loss(coords): 0.11776952, train loss(hm): 0.27900168, train loss: 0.39677120,
+          valid loss(coords): 0.10400655, valid loss(hm): 0.26339756, valid loss: 0.36740410
+[epoch 77] train loss(coords): 0.11522347, train loss(hm): 0.27634418, train loss: 0.39156765,
+          valid loss(coords): 0.10411661, valid loss(hm): 0.26321500, valid loss: 0.36733160
+[epoch 79] train loss(coords): 0.11475535, train loss(hm): 0.27498814, train loss: 0.38974349,
+          valid loss(coords): 0.10207926, valid loss(hm): 0.26143297, valid loss: 0.36351222
+[epoch 81] train loss(coords): 0.10886058, train loss(hm): 0.26328243, train loss: 0.37214300,
+          valid loss(coords): 0.10071066, valid loss(hm): 0.25746605, valid loss: 0.35817671
+[epoch 83] train loss(coords): 0.11503780, train loss(hm): 0.27380726, train loss: 0.38884505,
+          valid loss(coords): 0.09957741, valid loss(hm): 0.25700250, valid loss: 0.35657990
+[epoch 85] train loss(coords): 0.10619505, train loss(hm): 0.25870733, train loss: 0.36490238,
+          valid loss(coords): 0.09868092, valid loss(hm): 0.25507465, valid loss: 0.35375559
+[epoch 87] train loss(coords): 0.10616019, train loss(hm): 0.25759934, train loss: 0.36375953,
+          valid loss(coords): 0.09915062, valid loss(hm): 0.25597936, valid loss: 0.35512999
+[epoch 89] train loss(coords): 0.10458330, train loss(hm): 0.25533227, train loss: 0.35991556,
+          valid loss(coords): 0.09811665, valid loss(hm): 0.25446505, valid loss: 0.35258171
+[epoch 91] train loss(coords): 0.10429808, train loss(hm): 0.25406156, train loss: 0.35835964,
+          valid loss(coords): 0.09992032, valid loss(hm): 0.25567024, valid loss: 0.35559055
+[epoch 93] train loss(coords): 0.10241231, train loss(hm): 0.25072263, train loss: 0.35313494,
+          valid loss(coords): 0.09799446, valid loss(hm): 0.25470296, valid loss: 0.35269742
+[epoch 95] train loss(coords): 0.10046190, train loss(hm): 0.24924755, train loss: 0.34970945,
+          valid loss(coords): 0.09790991, valid loss(hm): 0.25461627, valid loss: 0.35252617
+[epoch 97] train loss(coords): 0.10185144, train loss(hm): 0.25004083, train loss: 0.35189227,
+          valid loss(coords): 0.09872098, valid loss(hm): 0.25469272, valid loss: 0.35341371
+[epoch 99] train loss(coords): 0.10275645, train loss(hm): 0.25200271, train loss: 0.35475916,
+          valid loss(coords): 0.09759093, valid loss(hm): 0.25402952, valid loss: 0.35162046
+[epoch 101] train loss(coords): 0.10272197, train loss(hm): 0.25014520, train loss: 0.35286716,
+          valid loss(coords): 0.09884651, valid loss(hm): 0.25418347, valid loss: 0.35302999
+[epoch 103] train loss(coords): 0.10163760, train loss(hm): 0.24853778, train loss: 0.35017538,
+          valid loss(coords): 0.09750333, valid loss(hm): 0.25355938, valid loss: 0.35106271
+[epoch 105] train loss(coords): 0.10029214, train loss(hm): 0.24577259, train loss: 0.34606473,
+          valid loss(coords): 0.09699613, valid loss(hm): 0.25447687, valid loss: 0.35147300
+[epoch 107] train loss(coords): 0.10090252, train loss(hm): 0.24639558, train loss: 0.34729810,
+          valid loss(coords): 0.09691247, valid loss(hm): 0.25293791, valid loss: 0.34985038
+[epoch 109] train loss(coords): 0.09864726, train loss(hm): 0.24266033, train loss: 0.34130759,
+          valid loss(coords): 0.09757277, valid loss(hm): 0.25312624, valid loss: 0.35069901
+[epoch 111] train loss(coords): 0.09908461, train loss(hm): 0.24308665, train loss: 0.34217126,
+          valid loss(coords): 0.09520077, valid loss(hm): 0.25057006, valid loss: 0.34577082
+[epoch 113] train loss(coords): 0.09931000, train loss(hm): 0.24290215, train loss: 0.34221216,
+          valid loss(coords): 0.09618585, valid loss(hm): 0.25238823, valid loss: 0.34857408
+[epoch 115] train loss(coords): 0.09919606, train loss(hm): 0.24381833, train loss: 0.34301438,
+          valid loss(coords): 0.09729480, valid loss(hm): 0.25368897, valid loss: 0.35098377
+[epoch 117] train loss(coords): 0.09832134, train loss(hm): 0.24141490, train loss: 0.33973624,
+          valid loss(coords): 0.09738322, valid loss(hm): 0.25338787, valid loss: 0.35077109
+[epoch 119] train loss(coords): 0.09720350, train loss(hm): 0.23965509, train loss: 0.33685859,
+          valid loss(coords): 0.09556305, valid loss(hm): 0.25100714, valid loss: 0.34657019
+[epoch 121] train loss(coords): 0.09760715, train loss(hm): 0.23912415, train loss: 0.33673130,
+          valid loss(coords): 0.09670311, valid loss(hm): 0.25220719, valid loss: 0.34891030
+[epoch 123] train loss(coords): 0.09718028, train loss(hm): 0.23883213, train loss: 0.33601241,
+          valid loss(coords): 0.09723190, valid loss(hm): 0.25272565, valid loss: 0.34995755
+[epoch 125] train loss(coords): 0.09684649, train loss(hm): 0.23718207, train loss: 0.33402856,
+          valid loss(coords): 0.09565261, valid loss(hm): 0.25134005, valid loss: 0.34699266
+[epoch 127] train loss(coords): 0.09574641, train loss(hm): 0.23650369, train loss: 0.33225010,
+          valid loss(coords): 0.09530457, valid loss(hm): 0.25075086, valid loss: 0.34605542
+[epoch 129] train loss(coords): 0.09671805, train loss(hm): 0.23737757, train loss: 0.33409562,
+          valid loss(coords): 0.09597595, valid loss(hm): 0.25253221, valid loss: 0.34850816
+[epoch 131] train loss(coords): 0.09567980, train loss(hm): 0.23553761, train loss: 0.33121742,
+          valid loss(coords): 0.09574215, valid loss(hm): 0.25159725, valid loss: 0.34733940
+[epoch 133] train loss(coords): 0.09453892, train loss(hm): 0.23322544, train loss: 0.32776435,
+          valid loss(coords): 0.09550837, valid loss(hm): 0.25060940, valid loss: 0.34611777
+[epoch 135] train loss(coords): 0.09582983, train loss(hm): 0.23498534, train loss: 0.33081517,
+          valid loss(coords): 0.09689784, valid loss(hm): 0.25315785, valid loss: 0.35005569
+[epoch 137] train loss(coords): 0.09458294, train loss(hm): 0.23275423, train loss: 0.32733716,
+          valid loss(coords): 0.09584663, valid loss(hm): 0.25182972, valid loss: 0.34767635
+[epoch 139] train loss(coords): 0.09357627, train loss(hm): 0.23193758, train loss: 0.32551385,
+          valid loss(coords): 0.09588638, valid loss(hm): 0.25124184, valid loss: 0.34712822
+[epoch 141] train loss(coords): 0.09425079, train loss(hm): 0.23132366, train loss: 0.32557444,
+          valid loss(coords): 0.09600117, valid loss(hm): 0.25196443, valid loss: 0.34796561
+[epoch 143] train loss(coords): 0.09363247, train loss(hm): 0.22976435, train loss: 0.32339682,
+          valid loss(coords): 0.09622688, valid loss(hm): 0.25279409, valid loss: 0.34902097
+[epoch 145] train loss(coords): 0.09262245, train loss(hm): 0.22938529, train loss: 0.32200774,
+          valid loss(coords): 0.09516111, valid loss(hm): 0.25065706, valid loss: 0.34581817
+[epoch 147] train loss(coords): 0.09330485, train loss(hm): 0.22978640, train loss: 0.32309125,
+          valid loss(coords): 0.09450372, valid loss(hm): 0.25027254, valid loss: 0.34477626
+[epoch 149] train loss(coords): 0.09926516, train loss(hm): 0.24140918, train loss: 0.34067434,
+          valid loss(coords): 0.09481265, valid loss(hm): 0.25133237, valid loss: 0.34614501
+[epoch 151] train loss(coords): 0.09176820, train loss(hm): 0.22728505, train loss: 0.31905325,
+          valid loss(coords): 0.09460435, valid loss(hm): 0.24935050, valid loss: 0.34395485
+[epoch 153] train loss(coords): 0.09305097, train loss(hm): 0.22699678, train loss: 0.32004775,
+          valid loss(coords): 0.09415270, valid loss(hm): 0.25022864, valid loss: 0.34438135
+[epoch 155] train loss(coords): 0.09222280, train loss(hm): 0.22638793, train loss: 0.31861072,
+          valid loss(coords): 0.09493985, valid loss(hm): 0.25024690, valid loss: 0.34518676
+[epoch 157] train loss(coords): 0.09246265, train loss(hm): 0.22581927, train loss: 0.31828192,
+          valid loss(coords): 0.09411685, valid loss(hm): 0.25080747, valid loss: 0.34492433
+[epoch 159] train loss(coords): 0.09485504, train loss(hm): 0.23191327, train loss: 0.32676831,
+          valid loss(coords): 0.09494215, valid loss(hm): 0.25089463, valid loss: 0.34583678
+[epoch 161] train loss(coords): 0.08846967, train loss(hm): 0.21855580, train loss: 0.30702547,
+          valid loss(coords): 0.09299475, valid loss(hm): 0.24756435, valid loss: 0.34055910
+[epoch 163] train loss(coords): 0.08893121, train loss(hm): 0.21910060, train loss: 0.30803182,
+          valid loss(coords): 0.09324163, valid loss(hm): 0.24772470, valid loss: 0.34096633
+[epoch 165] train loss(coords): 0.08765956, train loss(hm): 0.21624761, train loss: 0.30390716,
+          valid loss(coords): 0.09291853, valid loss(hm): 0.24730659, valid loss: 0.34022513
+[epoch 167] train loss(coords): 0.08839581, train loss(hm): 0.21747276, train loss: 0.30586858,
+          valid loss(coords): 0.09310690, valid loss(hm): 0.24832571, valid loss: 0.34143261
+[epoch 169] train loss(coords): 0.08781456, train loss(hm): 0.21640442, train loss: 0.30421898,
+          valid loss(coords): 0.09356111, valid loss(hm): 0.24796251, valid loss: 0.34152361
+[epoch 171] train loss(coords): 0.08764576, train loss(hm): 0.21666417, train loss: 0.30430993,
+          valid loss(coords): 0.09356061, valid loss(hm): 0.24847294, valid loss: 0.34203355
+[epoch 173] train loss(coords): 0.08732543, train loss(hm): 0.21506472, train loss: 0.30239016,
+          valid loss(coords): 0.09272632, valid loss(hm): 0.24752659, valid loss: 0.34025291
+[epoch 175] train loss(coords): 0.08745163, train loss(hm): 0.21442873, train loss: 0.30188036,
+          valid loss(coords): 0.09326119, valid loss(hm): 0.24802091, valid loss: 0.34128209
+[epoch 177] train loss(coords): 0.08630070, train loss(hm): 0.21345832, train loss: 0.29975902,
+          valid loss(coords): 0.09352062, valid loss(hm): 0.24836067, valid loss: 0.34188129
+[epoch 179] train loss(coords): 0.08658545, train loss(hm): 0.21435469, train loss: 0.30094015,
+          valid loss(coords): 0.09323183, valid loss(hm): 0.24803914, valid loss: 0.34127096
+[epoch 181] train loss(coords): 0.08545912, train loss(hm): 0.21144287, train loss: 0.29690198,
+          valid loss(coords): 0.09279751, valid loss(hm): 0.24856087, valid loss: 0.34135838
+[epoch 183] train loss(coords): 0.08682662, train loss(hm): 0.21357463, train loss: 0.30040125,
+          valid loss(coords): 0.09286647, valid loss(hm): 0.24815760, valid loss: 0.34102407
+[epoch 185] train loss(coords): 0.08536128, train loss(hm): 0.20998039, train loss: 0.29534167,
+          valid loss(coords): 0.09255626, valid loss(hm): 0.24811462, valid loss: 0.34067087
+[epoch 187] train loss(coords): 0.08554091, train loss(hm): 0.21171919, train loss: 0.29726009,
+          valid loss(coords): 0.09317292, valid loss(hm): 0.24852508, valid loss: 0.34169800
+[epoch 189] train loss(coords): 0.08506662, train loss(hm): 0.20944890, train loss: 0.29451552,
+          valid loss(coords): 0.09281653, valid loss(hm): 0.24794372, valid loss: 0.34076026
+[epoch 191] train loss(coords): 0.08583199, train loss(hm): 0.21068552, train loss: 0.29651751,
+          valid loss(coords): 0.09338177, valid loss(hm): 0.24847692, valid loss: 0.34185869
+[epoch 193] train loss(coords): 0.08542772, train loss(hm): 0.20932919, train loss: 0.29475690,
+          valid loss(coords): 0.09284288, valid loss(hm): 0.24810093, valid loss: 0.34094381
+[epoch 195] train loss(coords): 0.08590476, train loss(hm): 0.21077542, train loss: 0.29668018,
+          valid loss(coords): 0.09385297, valid loss(hm): 0.24973292, valid loss: 0.34358589
+[epoch 197] train loss(coords): 0.08535432, train loss(hm): 0.20924986, train loss: 0.29460419,
+          valid loss(coords): 0.09372075, valid loss(hm): 0.24927561, valid loss: 0.34299636
+[epoch 199] train loss(coords): 0.08401075, train loss(hm): 0.20884392, train loss: 0.29285467,
+          valid loss(coords): 0.09282597, valid loss(hm): 0.24857945, valid loss: 0.34140542
+[epoch 201] train loss(coords): 0.08410273, train loss(hm): 0.20763959, train loss: 0.29174233,
+          valid loss(coords): 0.09323445, valid loss(hm): 0.24853450, valid loss: 0.34176896
+[epoch 203] train loss(coords): 0.08568103, train loss(hm): 0.21004257, train loss: 0.29572360,
+          valid loss(coords): 0.09293312, valid loss(hm): 0.24844082, valid loss: 0.34137394
+[epoch 205] train loss(coords): 0.08440300, train loss(hm): 0.20802607, train loss: 0.29242907,
+          valid loss(coords): 0.09296621, valid loss(hm): 0.24818157, valid loss: 0.34114778
+[epoch 207] train loss(coords): 0.08484930, train loss(hm): 0.20820685, train loss: 0.29305615,
+          valid loss(coords): 0.09383786, valid loss(hm): 0.24962596, valid loss: 0.34346383
+[epoch 209] train loss(coords): 0.08427953, train loss(hm): 0.20704243, train loss: 0.29132196,
+          valid loss(coords): 0.09265730, valid loss(hm): 0.24834578, valid loss: 0.34100308
+[epoch 211] train loss(coords): 0.08388046, train loss(hm): 0.20662312, train loss: 0.29050358,
+          valid loss(coords): 0.09278983, valid loss(hm): 0.24844362, valid loss: 0.34123345
+[epoch 213] train loss(coords): 0.08487469, train loss(hm): 0.20760204, train loss: 0.29247674,
+          valid loss(coords): 0.09335242, valid loss(hm): 0.24910503, valid loss: 0.34245745
+[epoch 215] train loss(coords): 0.08390336, train loss(hm): 0.20556247, train loss: 0.28946582,
+          valid loss(coords): 0.09271477, valid loss(hm): 0.24868329, valid loss: 0.34139807
+[epoch 217] train loss(coords): 0.08307613, train loss(hm): 0.20517330, train loss: 0.28824943,
+          valid loss(coords): 0.09244272, valid loss(hm): 0.24789037, valid loss: 0.34033309
+[epoch 219] train loss(coords): 0.08397698, train loss(hm): 0.20578849, train loss: 0.28976548,
+          valid loss(coords): 0.09235350, valid loss(hm): 0.24833372, valid loss: 0.34068722
+[epoch 221] train loss(coords): 0.08470460, train loss(hm): 0.20581646, train loss: 0.29052106,
+          valid loss(coords): 0.09281548, valid loss(hm): 0.24819556, valid loss: 0.34101104
+[epoch 223] train loss(coords): 0.08318149, train loss(hm): 0.20504705, train loss: 0.28822854,
+          valid loss(coords): 0.09319044, valid loss(hm): 0.24894888, valid loss: 0.34213932
+[epoch 225] train loss(coords): 0.08311014, train loss(hm): 0.20505726, train loss: 0.28816740,
+          valid loss(coords): 0.09267599, valid loss(hm): 0.24871373, valid loss: 0.34138971
+[epoch 227] train loss(coords): 0.08306769, train loss(hm): 0.20454898, train loss: 0.28761668,
+          valid loss(coords): 0.09379558, valid loss(hm): 0.24968482, valid loss: 0.34348040
+[epoch 229] train loss(coords): 0.08229339, train loss(hm): 0.20300635, train loss: 0.28529974,
+          valid loss(coords): 0.09314347, valid loss(hm): 0.24901027, valid loss: 0.34215374
+[epoch 231] train loss(coords): 0.08252068, train loss(hm): 0.20279957, train loss: 0.28532025,
+          valid loss(coords): 0.09251458, valid loss(hm): 0.24877022, valid loss: 0.34128481
+[epoch 233] train loss(coords): 0.08254314, train loss(hm): 0.20265238, train loss: 0.28519552,
+          valid loss(coords): 0.09213899, valid loss(hm): 0.24827794, valid loss: 0.34041693
+[epoch 235] train loss(coords): 0.08288539, train loss(hm): 0.20309226, train loss: 0.28597766,
+          valid loss(coords): 0.09199152, valid loss(hm): 0.24747047, valid loss: 0.33946199
+[epoch 237] train loss(coords): 0.08208774, train loss(hm): 0.20184470, train loss: 0.28393244,
+          valid loss(coords): 0.09225413, valid loss(hm): 0.24803986, valid loss: 0.34029398
+[epoch 239] train loss(coords): 0.08177099, train loss(hm): 0.20155118, train loss: 0.28332218,
+          valid loss(coords): 0.09176004, valid loss(hm): 0.24771568, valid loss: 0.33947571
+[epoch 241] train loss(coords): 0.08061566, train loss(hm): 0.19833396, train loss: 0.27894962,
+          valid loss(coords): 0.09205749, valid loss(hm): 0.24706566, valid loss: 0.33912315
+[epoch 243] train loss(coords): 0.07979611, train loss(hm): 0.19692481, train loss: 0.27672092,
+          valid loss(coords): 0.09121880, valid loss(hm): 0.24629506, valid loss: 0.33751385
+[epoch 245] train loss(coords): 0.08067116, train loss(hm): 0.19782325, train loss: 0.27849441,
+          valid loss(coords): 0.09224544, valid loss(hm): 0.24740585, valid loss: 0.33965130
+[epoch 247] train loss(coords): 0.07959155, train loss(hm): 0.19606284, train loss: 0.27565439,
+          valid loss(coords): 0.09209642, valid loss(hm): 0.24739332, valid loss: 0.33948974
+[epoch 249] train loss(coords): 0.07967357, train loss(hm): 0.19696720, train loss: 0.27664077,
+          valid loss(coords): 0.09233144, valid loss(hm): 0.24812604, valid loss: 0.34045748
+[epoch 251] train loss(coords): 0.08053653, train loss(hm): 0.19759192, train loss: 0.27812845,
+          valid loss(coords): 0.09217988, valid loss(hm): 0.24763022, valid loss: 0.33981010
+[epoch 253] train loss(coords): 0.08067197, train loss(hm): 0.19795730, train loss: 0.27862927,
+          valid loss(coords): 0.09202698, valid loss(hm): 0.24699585, valid loss: 0.33902282
+[epoch 255] train loss(coords): 0.07956366, train loss(hm): 0.19610603, train loss: 0.27566969,
+          valid loss(coords): 0.09170672, valid loss(hm): 0.24715245, valid loss: 0.33885918
+[epoch 257] train loss(coords): 0.08115742, train loss(hm): 0.19750561, train loss: 0.27866303,
+          valid loss(coords): 0.09166125, valid loss(hm): 0.24688347, valid loss: 0.33854472
+[epoch 259] train loss(coords): 0.07952839, train loss(hm): 0.19638746, train loss: 0.27591585,
+          valid loss(coords): 0.09190748, valid loss(hm): 0.24711242, valid loss: 0.33901991
+[epoch 261] train loss(coords): 0.08154254, train loss(hm): 0.19864581, train loss: 0.28018834,
+          valid loss(coords): 0.09222431, valid loss(hm): 0.24740299, valid loss: 0.33962730
+[epoch 263] train loss(coords): 0.07960698, train loss(hm): 0.19482820, train loss: 0.27443518,
+          valid loss(coords): 0.09237271, valid loss(hm): 0.24764696, valid loss: 0.34001967
+[epoch 265] train loss(coords): 0.07929992, train loss(hm): 0.19391699, train loss: 0.27321691,
+          valid loss(coords): 0.09186830, valid loss(hm): 0.24700351, valid loss: 0.33887180
+[epoch 267] train loss(coords): 0.07957327, train loss(hm): 0.19520500, train loss: 0.27477827,
+          valid loss(coords): 0.09180940, valid loss(hm): 0.24703713, valid loss: 0.33884652
+[epoch 269] train loss(coords): 0.07885148, train loss(hm): 0.19401852, train loss: 0.27287000,
+          valid loss(coords): 0.09215091, valid loss(hm): 0.24723221, valid loss: 0.33938312
+[epoch 271] train loss(coords): 0.07883079, train loss(hm): 0.19429212, train loss: 0.27312291,
+          valid loss(coords): 0.09213214, valid loss(hm): 0.24724583, valid loss: 0.33937797
+[epoch 273] train loss(coords): 0.07775443, train loss(hm): 0.19228350, train loss: 0.27003793,
+          valid loss(coords): 0.09237422, valid loss(hm): 0.24776239, valid loss: 0.34013661
+[epoch 275] train loss(coords): 0.07919744, train loss(hm): 0.19454518, train loss: 0.27374262,
+          valid loss(coords): 0.09206953, valid loss(hm): 0.24781471, valid loss: 0.33988425
+[epoch 277] train loss(coords): 0.07874336, train loss(hm): 0.19302316, train loss: 0.27176652,
+          valid loss(coords): 0.09215842, valid loss(hm): 0.24768226, valid loss: 0.33984068
+[epoch 279] train loss(coords): 0.07909334, train loss(hm): 0.19429002, train loss: 0.27338336,
+          valid loss(coords): 0.09241748, valid loss(hm): 0.24784137, valid loss: 0.34025885
+[epoch 281] train loss(coords): 0.07827584, train loss(hm): 0.19265612, train loss: 0.27093196,
+          valid loss(coords): 0.09235789, valid loss(hm): 0.24786017, valid loss: 0.34021805
+[epoch 283] train loss(coords): 0.07863382, train loss(hm): 0.19211194, train loss: 0.27074576,
+          valid loss(coords): 0.09262542, valid loss(hm): 0.24767214, valid loss: 0.34029756
+[epoch 285] train loss(coords): 0.07848777, train loss(hm): 0.19311565, train loss: 0.27160343,
+          valid loss(coords): 0.09259505, valid loss(hm): 0.24815881, valid loss: 0.34075385
+[epoch 287] train loss(coords): 0.07866519, train loss(hm): 0.19388661, train loss: 0.27255181,
+          valid loss(coords): 0.09238167, valid loss(hm): 0.24814638, valid loss: 0.34052805
+[epoch 289] train loss(coords): 0.07919898, train loss(hm): 0.19293568, train loss: 0.27213466,
+          valid loss(coords): 0.09258229, valid loss(hm): 0.24779910, valid loss: 0.34038138
+[epoch 291] train loss(coords): 0.07876109, train loss(hm): 0.19316079, train loss: 0.27192188,
+          valid loss(coords): 0.09253601, valid loss(hm): 0.24822720, valid loss: 0.34076321
+[epoch 293] train loss(coords): 0.07772131, train loss(hm): 0.19211715, train loss: 0.26983847,
+          valid loss(coords): 0.09192296, valid loss(hm): 0.24783687, valid loss: 0.33975983
+[epoch 295] train loss(coords): 0.07904585, train loss(hm): 0.19187395, train loss: 0.27091980,
+          valid loss(coords): 0.09208843, valid loss(hm): 0.24721705, valid loss: 0.33930547
+[epoch 297] train loss(coords): 0.07994687, train loss(hm): 0.19429872, train loss: 0.27424559,
+          valid loss(coords): 0.09205936, valid loss(hm): 0.24746373, valid loss: 0.33952309
+[epoch 299] train loss(coords): 0.07865902, train loss(hm): 0.19327007, train loss: 0.27192909,
+          valid loss(coords): 0.09232679, valid loss(hm): 0.24793463, valid loss: 0.34026141
+[epoch 301] train loss(coords): 0.07883121, train loss(hm): 0.19216097, train loss: 0.27099218,
+          valid loss(coords): 0.09252613, valid loss(hm): 0.24786169, valid loss: 0.34038782
+[epoch 303] train loss(coords): 0.07733809, train loss(hm): 0.18993730, train loss: 0.26727539,
+          valid loss(coords): 0.09177319, valid loss(hm): 0.24749121, valid loss: 0.33926441
+[epoch 305] train loss(coords): 0.07842548, train loss(hm): 0.19205142, train loss: 0.27047691,
+          valid loss(coords): 0.09164705, valid loss(hm): 0.24694297, valid loss: 0.33859003
+[epoch 307] train loss(coords): 0.07848601, train loss(hm): 0.19219243, train loss: 0.27067844,
+          valid loss(coords): 0.09199694, valid loss(hm): 0.24759131, valid loss: 0.33958825
+[epoch 309] train loss(coords): 0.07722264, train loss(hm): 0.18966106, train loss: 0.26688370,
+          valid loss(coords): 0.09156990, valid loss(hm): 0.24683493, valid loss: 0.33840482
+[epoch 311] train loss(coords): 0.07829967, train loss(hm): 0.19218892, train loss: 0.27048858,
+          valid loss(coords): 0.09195451, valid loss(hm): 0.24767612, valid loss: 0.33963063
+[epoch 313] train loss(coords): 0.07866615, train loss(hm): 0.19141509, train loss: 0.27008125,
+          valid loss(coords): 0.09153902, valid loss(hm): 0.24701772, valid loss: 0.33855674
+[epoch 315] train loss(coords): 0.07744118, train loss(hm): 0.18990724, train loss: 0.26734842,
+          valid loss(coords): 0.09184962, valid loss(hm): 0.24761867, valid loss: 0.33946828
+[epoch 317] train loss(coords): 0.08019400, train loss(hm): 0.19465743, train loss: 0.27485143,
+          valid loss(coords): 0.09191692, valid loss(hm): 0.24754488, valid loss: 0.33946181
+[epoch 319] train loss(coords): 0.07805131, train loss(hm): 0.19097580, train loss: 0.26902711,
+          valid loss(coords): 0.09187448, valid loss(hm): 0.24705008, valid loss: 0.33892456
+[epoch 321] train loss(coords): 0.07786245, train loss(hm): 0.19025102, train loss: 0.26811348,
+          valid loss(coords): 0.09166912, valid loss(hm): 0.24712016, valid loss: 0.33878929
+[epoch 323] train loss(coords): 0.07736451, train loss(hm): 0.18936673, train loss: 0.26673123,
+          valid loss(coords): 0.09155619, valid loss(hm): 0.24734226, valid loss: 0.33889844
+[epoch 325] train loss(coords): 0.07690427, train loss(hm): 0.18950318, train loss: 0.26640745,
+          valid loss(coords): 0.09141887, valid loss(hm): 0.24711351, valid loss: 0.33853237
+[epoch 327] train loss(coords): 0.07748057, train loss(hm): 0.18952966, train loss: 0.26701023,
+          valid loss(coords): 0.09182113, valid loss(hm): 0.24737769, valid loss: 0.33919882
+[epoch 329] train loss(coords): 0.07740000, train loss(hm): 0.18865293, train loss: 0.26605292,
+          valid loss(coords): 0.09187579, valid loss(hm): 0.24757785, valid loss: 0.33945363
+[epoch 331] train loss(coords): 0.07745759, train loss(hm): 0.18922893, train loss: 0.26668652,
+          valid loss(coords): 0.09142687, valid loss(hm): 0.24745875, valid loss: 0.33888562
+[epoch 333] train loss(coords): 0.07632991, train loss(hm): 0.18816791, train loss: 0.26449782,
+          valid loss(coords): 0.09162933, valid loss(hm): 0.24713231, valid loss: 0.33876164
+[epoch 335] train loss(coords): 0.07747927, train loss(hm): 0.18921845, train loss: 0.26669772,
+          valid loss(coords): 0.09177897, valid loss(hm): 0.24747729, valid loss: 0.33925626
+[epoch 337] train loss(coords): 0.07847758, train loss(hm): 0.18930071, train loss: 0.26777828,
+          valid loss(coords): 0.09149343, valid loss(hm): 0.24725577, valid loss: 0.33874920
+[epoch 339] train loss(coords): 0.07719148, train loss(hm): 0.18879901, train loss: 0.26599048,
+          valid loss(coords): 0.09164127, valid loss(hm): 0.24701979, valid loss: 0.33866107
+[epoch 341] train loss(coords): 0.07812606, train loss(hm): 0.18880888, train loss: 0.26693494,
+          valid loss(coords): 0.09189876, valid loss(hm): 0.24760127, valid loss: 0.33950002
+[epoch 343] train loss(coords): 0.07669105, train loss(hm): 0.18758266, train loss: 0.26427371,
+          valid loss(coords): 0.09211834, valid loss(hm): 0.24760668, valid loss: 0.33972502
+[epoch 345] train loss(coords): 0.07658032, train loss(hm): 0.18782773, train loss: 0.26440805,
+          valid loss(coords): 0.09165552, valid loss(hm): 0.24714073, valid loss: 0.33879624
+[epoch 347] train loss(coords): 0.07679499, train loss(hm): 0.18678881, train loss: 0.26358380,
+          valid loss(coords): 0.09191869, valid loss(hm): 0.24794889, valid loss: 0.33986758
+[epoch 349] train loss(coords): 0.07557933, train loss(hm): 0.18537477, train loss: 0.26095410,
+          valid loss(coords): 0.09200305, valid loss(hm): 0.24756845, valid loss: 0.33957150
