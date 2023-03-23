@@ -10,12 +10,14 @@ from PIL import Image
 import tqdm
 import cv2
 
-vid_path = './pose_dataset/mpii/videos/'
 
+vid_path = './pose_dataset/mpii/videos/'
 train_joints_path = 'pose_dataset/mpii/train_joints.csv'
+mappings_pic_to_vid_path = 'pose_dataset/mpii/annot/mpii_human_pose_v1_sequences_keyframes.mat'
+vid_pic_mapping = scipy.io.loadmat(mappings_pic_to_vid_path)
+
 data = np.genfromtxt(train_joints_path,delimiter=',', dtype=None)
 # make dict: pic_name -> frame
-vid_pic_mapping = scipy.io.loadmat('/Users/ewern/Downloads/mpii_human_pose_v1_sequences_keyframes.mat')
 annot_frame_paths = vid_pic_mapping['annolist_keyframes'][0]  # 24987 frames
 #print(f"annot_frame_paths[0]: {annot_frame_paths[0]}")
 mappings = {}
@@ -62,14 +64,14 @@ for i in range(n_data):  # 18000
             # predict ekf
             _ = ekf.update(img)  # run it 5 times
         # predict ekf & non-ekf on annotated frame
-        img_annot = cv2.imread(vid_path + '/' + frame_from_vid)
-        ekf_pose = ekf.update(img_annot)
-        non_ekf_pose = pose_estimator.PoseEstimator().update(img_annot, use_ekf=False)
+        img_annotated = cv2.imread(vid_path + '/' + frame_from_vid)
+        ekf_pose = ekf.update(img_annotated)
+        non_ekf_pose = pose_estimator.PoseEstimator().update(img_annotated, use_ekf=False)
         # compare accuracy
         # print(f"\n---\nekf_pose:\n{ekf_pose}\n---\nnon_ekf_pose:\n{non_ekf_pose}\n---\nannot_i:\n{annot_i}\n---\n")
         ekf_err = calc_error(ekf_pose, annot_i)
         non_ekf_err = calc_error(non_ekf_pose, annot_i)
-        print(f"ekf error: {ekf_err}")
+        print(f"\nekf error: {ekf_err}")
         print(f"non_ekf error: {non_ekf_err}")
         betterness += non_ekf_err - ekf_err
         print(f"current betterness: {betterness}")
