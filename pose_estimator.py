@@ -20,8 +20,10 @@ import torch
 import torch.nn as nn
 from torchvision import models
 
+
 from estimator import ResEstimator
 from network import CoordRegressionNetwork
+
 
 # import matplotlib
 # matplotlib.use('Agg')
@@ -35,6 +37,7 @@ class PoseEstimator(object):
         # load the model 
         model_path = os.path.join("./models", model+"_%d.t7"%inp_dim)
         net = CoordRegressionNetwork(n_locations=16, backbone=model).to("cpu")
+
         self.e = ResEstimator(model_path, net, inp_dim)
 
         ### EKF ###
@@ -72,8 +75,10 @@ class PoseEstimator(object):
         kalman_gain_denominator = H @ sigma_bar_next @ H.T + self.R  # (n, n)
         kalman_gain = kalman_gain_numerator @ np.linalg.inv(kalman_gain_denominator)  # (n, n)
         
+        kalman_gain = np.eye(32) * .5
         expected_observation = self.observation(mu_bar_next)  # (n,)
         mu_next = mu_bar_next + kalman_gain @ (ob - expected_observation)  # (n,)
+        #print(f"{kalman_gain}\n^kalman_gain")
         sigma_next = sigma_bar_next - kalman_gain @ H @ sigma_bar_next  # (n, n)
         self.mu = np.concatenate((self.mu[32:], mu_next))  # (2n,)
         self.sigma[:32,:32] = self.sigma[32:,32:]     # (2n, 2n)
@@ -81,7 +86,9 @@ class PoseEstimator(object):
         
         return mu_next
     
+    @staticmethod
     def crop_camera(image, ratio=0.15):
+        return image
         #ratio=1.0
         height = image.shape[0]
         width = image.shape[1]
@@ -90,10 +97,13 @@ class PoseEstimator(object):
         crop_img = image[0:int(height), int(mid_width - width_20):int(mid_width + width_20)]
         return crop_img
 
-    def update(self, image):
+    def update(self, image, use_ekf=True):
 
         image = self.crop_camera(image)
-        pose_guess = self.e.inference(image).flatten()  # (32,)
-        pose = self.EKF(pose_guess).reshape((16,2)).astype(np.int64)
-
+        pose, heatmaps = self.e.inference(image) # (16,2)
+        #print(f"heatmap: {heatmaps[0,0]}")
+        # plt.imshow(heatmaps[0,0], cmap='hot', interpolation='nearest')
+        # plt.show()
+        if use_ekf:
+            pose = self.EKF(pose.flatten()).reshape((16,2)).astype(np.int64)
         return pose

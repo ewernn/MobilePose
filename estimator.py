@@ -94,11 +94,16 @@ class ResEstimator:
         image = image.unsqueeze(0)
         pose_fun = rescale_out['pose_fun']
 
-        keypoints = self.net(image)
+        keypoints = self.net(image) # predict joint coords on 224x224 image
+        #keypoints[0].shape() = (1,16, 2)
+        #keypoints[1].shape() = (1, 16, 56, 56)   --> heatmap?
+        # print(f"keypoints[0] shape: {(keypoints[0].size())}")
+        # print(f"keypoints[1] shape: {(keypoints[1].size())}")
+        heatmaps = keypoints[1].detach().numpy()
         keypoints = keypoints[0].detach().numpy()
-        keypoints = pose_fun(keypoints).astype(int)
+        keypoints = pose_fun(keypoints).astype(int) # rescale to original image size
 
-        return keypoints
+        return keypoints, heatmaps
 
     @staticmethod
     def draw_humans(npimg, pose, imgcopy=False):
